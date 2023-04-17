@@ -1,0 +1,24 @@
+.main-bpf {
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.tutor {
+    margin-top: 6em;
+    width: 70%;
+    margin-left: 4em;
+    margin-right: 1em;
+    margin-bottom: 3em;
+}
+
+.tutor>h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+#navbar-example3 {
+    position: fixed;
+    top: 1;
+    margin-top: 40px;
+}
+
+  

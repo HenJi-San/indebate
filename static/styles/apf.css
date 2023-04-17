@@ -1,0 +1,119 @@
+body {
+  background-image: url(/static/images/bg-tile.png);
+}
+
+.copy-01 {
+  margin-bottom: 3em;
+}
+.heading {
+  color: #333638;
+}
+.heading.h-02 {
+  font-family: segoeui, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1;
+}
+.heading.h-03 {
+  font-family: segoeui, Arial, sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.apf-order-h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.link-apf {
+  font-size: 0.8em;
+}
+
+.tutor {
+  margin-top: 6em;
+  width: 70%;
+  margin-left: 4em;
+  margin-right: 1em;
+  margin-bottom: 3em;
+}
+
+.tutor > h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.main-apf {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  
+}
+
+#apf-gen>img {
+  max-width: 100%;
+  height: auto;
+}
+
+.common-apf-mistakes {
+  margin-top: 3em;
+}
+
+.protests-and-ques {
+  margin-top: 3em;
+}
+
+.protests-and-ques > h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.personal-experience>h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+#navbar-example3   {
+  position: fixed;
+  top: 1;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.left-side-apf {
+  margin-top: 1em;
+  background-color: white;
+  margin-bottom: 1em;
+}
+
+.left-side-apf>h2 {
+  text-align: center;
+  display: none;
+}
+footer {
+  position: relative;
+}
+@media (max-width: 1024px) {
+  .main-apf {
+    margin-left: 7em;
+  }
+}
+@media (max-width: 800px) {
+  .tutor {
+    margin-top: 3em;
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 3em;
+  }
+
+  .main-apf {
+    margin-left: 0;
+  }
+  #navbar-example3 {
+    position: relative;
+  }
+  .left-side-apf>h2 {
+    display: block;
+  }
+}

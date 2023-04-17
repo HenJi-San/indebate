@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дебаты для всех</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <link rel="stylesheet" href="/static/styles/container.css">
+    <link rel="stylesheet" href="/static/styles/bpf.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">Дебаты для всех!</a>
+                <button class="navbar-toggler" type="button" color="white" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link main-nav" aria-current="page" href="/index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">История дебатов</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Судейство
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="/Judging/basics-of-judging.html">Основы судейства</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/Judging/judging-ib-diff-formats.html">Судейство в
+                                        разных
+                                        форматах</a></li>
+                                <li><a class="dropdown-item" href="/Judging/common-mistakes.html">Частые ошибки</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Форматы
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="/American-format/apf.html">АПФ (Американский)</a>
+                                </li>
+                                <li><a class="dropdown-item" href="/British-format/bpf.html">БПВ (Британский)</a></li>
+                                <li><a class="dropdown-item" href="/School-format/wsdc.html">WSDC (Школьный)</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="container-fuild">
+            <div class="row">
+                <div class="col-lg-3">
+                    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-gen">1. Формат БПФ</a>
+                            <a class="nav-link ms-3 my-1 nav-contt" href="#bpf-dif">2. Главные особенности и отличия от АПФ</a>
+                            <a class="nav-link" href="#bpf-order">3. Порядок выступлений</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link" href="#bpf-order">3-1. Открывающая сторона</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-1">3-1-1. Премьер-министр</a>
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-2">3-1-2. Лидер оппозиции</a>
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-3">3-1-3. Заместитель
+                                        премьер-министра</a>
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-4">3-1-4. Заместитель лидера
+                                        оппозиции</a>
+                                </nav>
+                                <a class="nav-link" href="#apf-order">3-2. Закрывающая сторона</a>
+                                <nav class="nav nav-pills flex-column">
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-5">3-2-1. Член правительства</a>
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-6">3-2-2. Член оппозиции</a>
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-7">3-2-3. Секретарь
+                                        правительства</a>
+                                    <a class="nav-link ms-3 my-1 nav-cont" href="#bpf-order-8">3-2-4. Секретарь оппозиции</a>
+                                </nav>
+                            </nav>
+                        </nav>
+                </div>
+                <div class="col-lg-8 maincont p-4 main-bpf">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+                        class="scrollspy-example-2" tabindex="0">
+                        <div id="bpf-gen">
+                            <h1>Дебатный формат БПФ</h1>
+                            <p>БПФ (Британский парламентский формат) – это один из наиболее распространенных форматов
+                                дебатов в мире, имитирующий структуру дебатов, проходящих в британском парламенте. Этот
+                                формат обычно используется на соревнованиях и турнирах по дебатам. БПФ дебаты
+                                предназначены для обсуждения различных тем и развития навыков критического мышления,
+                                аргументации и общения. <br> <br>
+
+                                Структура БПФ дебатов: <br> <br>
+
+                                Два противоборствующих команды: Правительство (пропозиция) и Оппозиция. Каждая команда
+                                состоит из двух пар – Открывающая пара и Закрывающая пара. Всего в дебатах участвует 8
+                                дебатеров (по 4 в каждой команде). <br><br>
+
+                                Модератор, который контролирует ход дебатов и следит за соблюдением правил. <br><br>
+
+                                Речи: каждый дебатер произносит одну речь продолжительностью 5-7 минут. Речи идут в
+                                следующем порядке: <br>
+                            <ol>
+                                <li>Первый спикер Правительства (Премьер-министр)</li>
+                                <li>Первый спикер Оппозиции (Лидер оппозиции)</li>
+                                <li>Второй спикер Правительства (Заместитель премьер-министра)</li>
+                                <li>Второй спикер Оппозиции (Заместитель лидера оппозиции)</li>
+                                <li>Третий спикер Правительства (Член правительства)</li>
+                                <li>Третий спикер Оппозиции (Член оппозиции)</li>
+                                <li>Четвертый спикер Правительства (Закрывающий член правительства)</li>
+                                <li>Четвертый спикер Оппозиции (Закрывающий член оппозиции)</li>
+                            </ol>
+                            Запросы на информацию (POI – Point of Information): в течение речей дебатеров, кроме
+                            первой и последней минуты, участники могут задать короткий вопрос противоположной
+                            стороне. Отвечать на вопросы не обязательно, но это может помочь участникам
+                            продемонстрировать свою аргументацию.
+
+                            Заключительные слова: После завершения всех речей, первый спикер Правительства
+                            (Премьер-министр) и первый спикер Оппозиции (Лидер оппозиции) могут произнести по одному
+                            заключительному слову</p>
+                        </div>
+                        <div class="bpf-difference" id="bpf-dif">
+                            <h2>
+                                Главные особенности и отличия от АПФ
+                            </h2>
+                            <p></p>
+                        </div>
+                        <div class="bpf-order" id="bpf-order">
+                            <h2>Порядок выступлений и основые задачи спикеров</h2>
+                        
+                            <div id="bpf-order-1">
+                                <h5>Первый спикер открывающего правительства (Премьер-министр)</h5>
+                                <p>Первый спикер правительства (первая речь, 5-7 минут) - открывает дебаты и представляет позицию правительства.
+                                </p>
+                            </div>
+                            <div id="bpf-order-2">
+                                <h5>Первый спикер открывающей оппозиции (Лидер оппозиции)</h5>
+                                <p>Первый спикер оппозиции (первая речь, 5-7 минут) - открывает позицию оппозиции и опровергает аргументы правительства.</p>
+                            </div>
+                            <div id="bpf-order-3">
+                                <h5>Второй спикер открывающего правительства (Заместитель премьер-министра)</h5>
+                                <p>Второй спикер правительства (первая речь, 5-7 минут) - углубляет позицию правительства и опровергает аргументы оппозиции.</p>
+                            </div>
+                            <div id="bpf-order-4">
+                                <h5>Второй спикер открывающей оппозиции (Заместитель оппозиции)</h5>
+                                <p>Второй спикер оппозиции (первая речь, 5-7 минут) - углубляет позицию оппозиции и опровергает аргументы правительства.</p>
+                            </div>
+                            <div id="bpf-order-5">
+                        <h5>Первый спикер закрывающего правительства (Член правительства)</h5>
+                        <p>Первый спикер правительства (вторая речь, 2-4 минуты) - суммирует аргументы правительства и отвечает на оставшиеся возражения оппозиции.</p>
+                            </div>
+                            <div id="bpf-order-6">
+                                <h5>Первый спикер закрывающей оппозиции (Член оппозиции)</h5>
+                                <p>Первый спикер оппозиции (вторая речь, 2-4 минуты) - суммирует аргументы оппозиции и отвечает на оставшиеся возражения правительства.</p>
+                            </div>
+                            <div id="bpf-order-7">
+                                <h5>Второй спикер закрывающего правительства (Секретарь правительства)</h5>
+                                <p>Второй спикер правительства (вторая речь, 2-4 минуты) - суммирует аргументы правительства и делает заключительные замечания.</p>
+                            </div>
+                            <div id="bpf-order-8">
+                                <h5>Второй спикер закрывающей оппозиции (Секретарь оппозиции)</h5>
+                                <p>Второй спикер оппозиции (вторая речь, 2-4 минуты) - суммирует аргументы оппозиции и делает заключительные замечания.</p>
+                            </div>
+                        </div>
+                    <div class="bfp-conclution">
+                        <p>После всех выступлений, судьи или аудитория определяют победителя дебатов на основе качества представленных аргументов и убедительности спикеров.</p>
+                    </div>
+                
+
+                <div class="tutor">
+                        <h2>Другая полезная информация о дебатах</h2>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                              aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                              aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                              aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                              aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="/static/images/definition.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Кейс</h5>
+                                <p>Что такое кейс? Как строить грамотный кейс?</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="/static/images/definition.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Типы резолюций</h5>
+                                <p>Какие бывают типы резолюций? В чем их отличие? Как на них готовиться?</p>
+                              </div>
+                            </div>
+            
+                            <div class="carousel-item">
+                              <img src="/static/images/definition.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Сужение </h5>
+                                <p>Что такое сужение? Как делать сужение?</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img src="/static/images/definition.png" class="d-block w-100" alt="...">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>Дефиниции</h5>
+                                <p>Что такое дефиниции? Как строить правильные дефиниции с грамотным сужением?</p>
+                              </div>
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                          </button>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-2 right-side">
+
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fuild">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 p-5 footer-text text-center bg-dark">
+              <div class="develop">
+                <p><a class="foot-text" href="https://vk.com/kyoku_py" target="_blank">Разработчик сайта</a></p>
+              </div>
+              <div class="gim6">
+                <p><a class="foot-text" href="#">@Дебатный клуб 6 гимназии, город Семей</a></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 p-5 footer-text text-center bg-dark">
+              <p>
+                <a class="foot-text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  Совет от команды "Цукуеми" - 1 место в области
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card-body">
+                  <a class="tsuk-link" href="https://vk.com/kyoku_py">Vkontakte</a><br>
+                  <a class="tsuk-link" href="https://t.me/stylekyoku">Telegram</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 p-5   footer-text text-center bg-dark">
+    
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
