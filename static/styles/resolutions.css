@@ -23,6 +23,12 @@ body {
   font-weight: normal;
   line-height: 1;
 }
+.heading.h-04 {
+  font-family: segoeui, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1;
+}
 #navbar-example3   {
   position: fixed;
   top: 1;
