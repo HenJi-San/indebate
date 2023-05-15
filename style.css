@@ -28,7 +28,9 @@ a {
 .navbar-brand {
   font-size: 35px;
 }
-
+.dropdown-menu {
+  background-color: rgb(37, 37, 37);
+}
 .site-inner {
   width: 1000px;
   position: relative;
