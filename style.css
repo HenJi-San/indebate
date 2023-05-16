@@ -158,9 +158,9 @@ a {
 }
 
 .indebate-text {
-  transform: translate(0px, 19%);
+
   opacity: 0;
-  transition: all 0.8s ease 0s;
+  transition: all 2s ease 0s;
 }
 .indebate-text._active {
   transform: translate(1px,0px);
