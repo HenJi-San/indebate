@@ -74,13 +74,14 @@ h1 {
   #navbar-example3 {
     position: relative;
   }
-  .left-side-resol {
+  .left-side-arg {
     margin-top: 0;
     top: 0;
   }
 }
+
 @media (max-width: 800px) {
-  .left-side-resol>h2 {
+  .left-side-arg>h2 {
     display: block;
     margin-top: 1em;
   }

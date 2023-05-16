@@ -1,0 +1,99 @@
+body {
+    background-image: url(/static/images/bg-tile.png);
+}
+
+.copy-01 {
+    margin-bottom: 1.7em;
+}
+
+.heading {
+    color: #333638;
+}
+
+.heading.h-02 {
+  font-family: segoeui, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.heading.h-03 {
+  font-family: segoeui, Arial, sans-serif;
+  font-size: 35px;
+  font-weight: normal;
+  line-height: 1;
+  margin-top: 2em;
+}
+.heading.h-04 {
+  font-family: segoeui, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1;
+}
+#navbar-example3   {
+  position: fixed;
+  top: 1;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.left-side-arg {
+  margin-right: 0em;
+  background-color: white;
+}
+.left-side-arg>h2 {
+  text-align: center;
+  display: none;
+}
+
+h1 {
+    margin-top: 0.3em;
+    font-family: 'EB Garamond';
+    font-size: 130px;
+    text-align: center;
+}
+  
+.arg-gen-info {
+    margin-top: 3em;
+}
+.img-in-text {
+   text-align: center;
+}
+
+.tutor-text {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .tutor {
+      margin-top: 3em;
+      width: 100%;
+      margin-left: 0em;
+      margin-right: 0em;
+      margin-bottom: 3em;
+    }
+    
+    .main-arg {
+      margin: 0;
+    }
+    h1{
+      font-size: 90px;
+    }
+    #navbar-example3 {
+      position: relative;
+    }
+    .left-side-arg {
+      margin-top: 0;
+      top: 0;
+    }
+  }
+@media (max-width: 800px) {
+    .left-side-arg>h2 {
+      display: block;
+      margin-top: 1em;
+    }
+    h1 {
+      font-size: 75px;
+    }
+}

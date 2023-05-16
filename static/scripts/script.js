@@ -7,7 +7,7 @@ if (indebateText.length > 0) {
       const indebateTextConst = indebateText[index];
       const indebateTextHeight = indebateTextConst.offsetHeight;
       const indebateTextOffset = offset(indebateTextConst).top;
-      const indebateTextStart = 4000;
+      const indebateTextStart = 4000  ;
 
       let indebateTextPoint = window.innerHeight - indebateTextHeight / indebateTextStart;
 
