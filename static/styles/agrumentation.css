@@ -77,8 +77,8 @@ h1 {
     .main-arg {
       margin: 0;
     }
-    h1{
-      font-size: 90px;
+    #title {
+      margin-top: 0.5em;
     }
     #navbar-example3 {
       position: relative;
@@ -88,12 +88,22 @@ h1 {
       top: 0;
     }
   }
+  img {
+    width: 70%;
+  }
 @media (max-width: 800px) {
     .left-side-arg>h2 {
       display: block;
       margin-top: 1em;
     }
+    .heading.h-02 {
+      font-size: 35px;
+    }
+    #title {
+      margin-top: 0.5em;
+    }
     h1 {
-      font-size: 75px;
+      text-align: center;
+      font-size: 50px;
     }
 }
