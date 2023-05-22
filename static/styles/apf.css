@@ -20,6 +20,18 @@ body {
   font-weight: normal;
   line-height: 1;
 }
+.menu {
+  display: none;
+}
+
+.stick {
+  width: 80%;
+  height: 5px;
+  background: black;
+}
+.menu_small_icon{
+  display: none;
+}
 
 .apf-order-h2 {
   margin-top: 2em;
@@ -104,6 +116,28 @@ footer {
     margin-left: 0em;
     margin-right: 0em;
     margin-bottom: 3em;
+  }
+  .menu-small {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    background: white;
+    transform: translateX(-100%);
+  }
+  .menu_small_icon {
+    position: fixed;
+    top: 5em;
+    left: 1em;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
 
   .main-apf {
