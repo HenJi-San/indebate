@@ -43,3 +43,40 @@ links.forEach(function (element) {
   $(loadApplication);
 
 }).call(this);
+
+let currentSlide = 1;
+const totalSlides = document.getElementsByClassName('slide').length;
+
+document.getElementById('next').addEventListener('click', () => {
+  const activeSlide = document.querySelector('.slide.active');
+  activeSlide.style.transform = 'translateX(-100%)';
+
+  currentSlide++;
+  if(currentSlide > totalSlides) currentSlide = 1;
+  
+  const newActiveSlide = document.getElementById(`slide-${currentSlide}`);
+  newActiveSlide.style.transform = 'translateX(0)';
+  
+  setTimeout(() => {
+    activeSlide.classList.remove('active');
+    activeSlide.style.transform = 'translateX(100%)';
+    newActiveSlide.classList.add('active');
+  }, 1000);
+});
+
+document.getElementById('prev').addEventListener('click', () => {
+  const activeSlide = document.querySelector('.slide.active');
+  activeSlide.style.transform = 'translateX(100%)';
+  
+  currentSlide--;
+  if(currentSlide < 1) currentSlide = totalSlides;
+  
+  const newActiveSlide = document.getElementById(`slide-${currentSlide}`);
+  newActiveSlide.style.transform = 'translateX(0)';
+  
+  setTimeout(() => {
+    activeSlide.classList.remove('active');
+    activeSlide.style.transform = 'translateX(100%)';
+    newActiveSlide.classList.add('active');
+  }, 1000);
+});

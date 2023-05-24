@@ -1,305 +1,349 @@
 <!DOCTYPE HTML>
 <html class="no-js">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-    <title>InDebate</title>
-    <link type="image/x-icon" href="/static/favicon/indebate-ico.ico" rel="shortcut icon">
-    <link type="Image/x-icon" href="/static/favicon/indebate-ico.ico" rel="icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <title>InDebate</title>
+  <link type="image/x-icon" href="/static/favicon/indebate-ico.ico" rel="shortcut icon">
+  <link type="Image/x-icon" href="/static/favicon/indebate-ico.ico" rel="icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link href="css/plugins.css" media="screen" rel="stylesheet" type="text/css"/>
-    <link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
-    <script src="/static/scripts/libs/modernizr-2.6.2.min.js"></script>
-    <script src="https://kit.fontawesome.com/6fe63ae194.js"></script>
-  
+  <link href="css/plugins.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/style.css" media="screen" rel="stylesheet" type="text/css" />
+  <script src="/static/scripts/libs/modernizr-2.6.2.min.js"></script>
+  <script src="https://kit.fontawesome.com/6fe63ae194.js"></script>
+
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">InDebate</a>
-            <button class="navbar-toggler" type="button" color="white" data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active main-nav" aria-current="page" href="/index.html">Главная</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">История дебатов</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Судейство
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="/Judging/basics-of-judging.html">Основы судейства</a></li>
-                    <li><a class="dropdown-item" href="/Judging/judging-ib-diff-formats.html">Судейство в разных
-                        форматах</a></li>
-                    <li><a class="dropdown-item" href="/Judging/common-mistakes.html">Частые ошибки</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Форматы
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="/American-format/apf.html">АПФ (Американский)</a></li>
-                    <li><a class="dropdown-item" href="/British-format/bpf.html">БПВ (Британский)</a></li>
-                    <li><a class="dropdown-item" href="/School-format/wsdc.html">WSDC (Школьный)</a></li>
-                  </ul>
-                </li>
-    
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"><img src="/static/favicon/indebate 32x32.png" alt=""></a>
+        <button class="navbar-toggler" type="button" color="white" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active main-nav" aria-current="page" href="/index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">История дебатов</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Судейство
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="/Judging/basics-of-judging.html">Основы судейства</a></li>
+                <li><a class="dropdown-item" href="/Judging/judging-ib-diff-formats.html">Судейство в разных
+                    форматах</a></li>
+                <li><a class="dropdown-item" href="/Judging/common-mistakes.html">Частые ошибки</a></li>
               </ul>
-            </div>
-          </div>
-        </nav>
-    </header>
-<section id="page-container">
-    <section id="page-hero">
-        <div class="site-inner">
-            <div class="indebate-text _animScroll">
-              <header>
-                  <div class="brand-logo">
-                      <img src=static/images/logo.png>
-                  </div>
-              </header>
-              <h1 class="heading h-01">InDebate</h1>
-              <p class="sub-header copy-02">Подробная информация о дебатах от команды "Цукуёми" при поддержке Даутбаева Рафаэль Рулановича</p>
-              
-            </div>
-            <a href="#gen-deb" class="scroll">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                     id="arrow-down" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;"
-                     xml:space="preserve" class=" iconic-injected-svg inject-me">
-            <path id="circle"
-                  d="M0.2,27.4c-0.2-1.9-0.3-3.4,0-5.3c0.1-0.4,0.2-0.8,0.2-1.1C2.2,9.1,12.3,0.2,24.3,0c8.2-0.1,14.9,3,20.1,9.4  c3,3.8,4.6,8.2,5.3,12.9c0.1,2.5,0.1,2.5,0,4.7c-0.1,0.5-0.2,0.8-0.2,1.3C47.7,40.2,37.9,49.1,26,49.5c-10,0.3-17.5-4-22.7-12.6  C1.5,34,0.7,30.7,0.2,27.4z M2.3,24.7c-0.2,11.6,9.2,22.7,22.6,22.7c13.2,0,22.6-10.7,22.6-22.6c0-12-9.4-22.7-22.6-22.7  C11.4,2.1,2.2,13.3,2.3,24.7z"></path>
-                    <path id="arrow" class="st0"
-                          d="M31.8,23.4c-0.2-0.3-0.6-0.3-0.9-0.1l-6,5l-6-5c-0.3-0.2-0.7-0.2-0.9,0.1c-0.2,0.3-0.2,0.7,0.1,0.9l6.5,5.4   c0.1,0.1,0.3,0.1,0.4,0.1c0.1,0,0.3,0,0.4-0.1l6.5-5.4C31.9,24,32,23.6,31.8,23.4z"></path>
-          </svg>
-            </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Форматы
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="/American-format/apf.html">АПФ (Американский)</a></li>
+                <li><a class="dropdown-item" href="/British-format/bpf.html">БПВ (Британский)</a></li>
+                <li><a class="dropdown-item" href="/School-format/wsdc.html">WSDC (Школьный)</a></li>
+              </ul>
+            </li>
+
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
+  <section id="page-container">
+    <section id="page-hero">
+      <div class="site-inner">
+        <div class="indebate-text _animScroll">
+          <header>
+            <div class="brand-logo">
+              <img src=static/images/logo.png>
+            </div>
+          </header>
+          <h1 class="heading h-01">InDebate</h1>
+          <p class="sub-header copy-02">Подробная информация о дебатах от команды "Цукуёми" при поддержке Даутбаева
+            Рафаэль Рулановича</p>
+
+        </div>
+        <a href="#gen-deb" class="scroll">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+            id="arrow-down" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;"
+            xml:space="preserve" class=" iconic-injected-svg inject-me">
+            <path id="circle"
+              d="M0.2,27.4c-0.2-1.9-0.3-3.4,0-5.3c0.1-0.4,0.2-0.8,0.2-1.1C2.2,9.1,12.3,0.2,24.3,0c8.2-0.1,14.9,3,20.1,9.4  c3,3.8,4.6,8.2,5.3,12.9c0.1,2.5,0.1,2.5,0,4.7c-0.1,0.5-0.2,0.8-0.2,1.3C47.7,40.2,37.9,49.1,26,49.5c-10,0.3-17.5-4-22.7-12.6  C1.5,34,0.7,30.7,0.2,27.4z M2.3,24.7c-0.2,11.6,9.2,22.7,22.6,22.7c13.2,0,22.6-10.7,22.6-22.6c0-12-9.4-22.7-22.6-22.7  C11.4,2.1,2.2,13.3,2.3,24.7z">
+            </path>
+            <path id="arrow" class="st0"
+              d="M31.8,23.4c-0.2-0.3-0.6-0.3-0.9-0.1l-6,5l-6-5c-0.3-0.2-0.7-0.2-0.9,0.1c-0.2,0.3-0.2,0.7,0.1,0.9l6.5,5.4   c0.1,0.1,0.3,0.1,0.4,0.1c0.1,0,0.3,0,0.4-0.1l6.5-5.4C31.9,24,32,23.6,31.8,23.4z">
+            </path>
+          </svg>
+        </a>
+      </div>
     </section>
 
 
     <section id="page-about" class="section">
-        <div class="site-inner">
-            <div class="debate-is animTextScroll _animScroll">
-              <h2 class="heading h-01 " style="margin-top:0;">Что такое дебаты?</h2>
-              <div class="about-me-info">
-                  <div>
-                      <p class="copy-01 ">Дебаты – это структурированный формат дискуссии, в котором две или несколько сторон выражают свои
-                          аргументы
-                          и контраргументы по определенному вопросу или предложению. Цель дебатов – представить разные точки зрения
-                          и,
-                          возможно, убедить аудиторию в достоинствах одной из них. Дебаты могут быть формальными или неформальными и
-                          проводятся по разным правилам и с разными структурами, в зависимости от ситуации и организации. <br> <br>
-                          Обычно участники дебатов делятся на две команды: "за" и "против" предложения. Каждая сторона представляет
-                          свои аргументы, опровергает аргументы противоположной стороны и отвечает на вопросы. После обсуждения
-                          каждая
-                          сторона имеет возможность подвести итоги и представить заключительные доводы. В некоторых случаях, после
-                          дебатов аудитория или судьи голосуют за то, какая сторона представила более убедительные.
-                      </p>
-                  </div>
+      <div class="site-inner">
+        <div class="debate-is animTextScroll _animScroll">
+          <h2 class="heading h-01 " style="margin-top:0;">Что такое дебаты?</h2>
+          <div class="about-me-info">
+            <div>
+              <p class="copy-01 ">Дебаты – это структурированный формат дискуссии, в котором две или несколько сторон
+                выражают свои
+                аргументы
+                и контраргументы по определенному вопросу или предложению. Цель дебатов – представить разные точки
+                зрения
+                и,
+                возможно, убедить аудиторию в достоинствах одной из них. Дебаты могут быть формальными или неформальными
+                и
+                проводятся по разным правилам и с разными структурами, в зависимости от ситуации и организации. <br>
+                <br>
+                Обычно участники дебатов делятся на две команды: "за" и "против" предложения. Каждая сторона
+                представляет
+                свои аргументы, опровергает аргументы противоположной стороны и отвечает на вопросы. После обсуждения
+                каждая
+                сторона имеет возможность подвести итоги и представить заключительные доводы. В некоторых случаях, после
+                дебатов аудитория или судьи голосуют за то, какая сторона представила более убедительные.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="debate-bef animTextScroll _animScroll">
+          <h1 class="heading h-01">Что дают дебаты?</h1>
+          <div class="columns bef-1">
+            <aside>
+              <h3 class="heading h-03">Развитие критического мышления</h3>
+              <p class="copy-02">ебаты стимулируют участников критически анализировать и оценивать
+                аргументы, а также разрабатывать свои собственные идеи и контраргументы.
+              </p>
+            </aside>
+            <aside>
+              <h3 class="heading h-03">Улучшение навыков коммуникации</h3>
+              <p class="copy-02">Дебаты помогают участникам развивать навыки публичных выступлений,
+                аргументации и убеждения, а также слушания и отзывчивости на аргументы других.
+              </p>
+            </aside>
+            <aside>
+              <h3 class="heading h-03">Развитие навыков работы в команде</h3>
+              <p class="copy-02">В командных дебатах участники учатся сотрудничать и координировать свои
+                усилия для достижения общей цели. </p>
+            </aside>
+          </div>
+          <div class="columns bef-2">
+            <aside>
+              <h3 class="heading h-03">Образовательная ценность</h3>
+              <p class="copy-02">Дебаты могут расширить знания участников о различных вопросах и темах,
+                предоставляя возможность исследовать и обсудить разнообразные взгляды и мнения.
+              </p>
+            </aside>
+            <aside>
+              <h3 class="heading h-03">Стимулирование демократического диалога</h3>
+              <p class="copy-02">Дебаты способствуют открытому и честному обсуждению различных
+                идей и мнений, что может способствовать формированию более обоснованных и сбалансированных решений на
+                уровне общества и государства. </p>
+            </aside>
+            <aside>
+              <h3 class="heading h-03">Улучшение толерантности и уважения</h3>
+              <p class="copy-02">Участие в дебатах может научить людей прислушиваться к мнениям других,
+                даже если они не согласны с ними, и уважать право каждого на свою точку зрения. <br> <br>
+              </p>
+            </aside>
+          </div>
+        </div>
+        <div class="our-debaters animTextScroll _animScroll">
+          <div class="container-fuild w-90">
+            <div class="row">
+              <div class="col card" style="width: 18rem;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Жданов Никита</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="col card" style="width: 18rem;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Абуталифулы Ералы</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+              <div class="col card" style="width: 1rem;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Торебекова Алуа</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-
-
-            <div class="debate-bef animTextScroll _animScroll">
-                <h1 class="heading h-01">Что дают дебаты?</h1>
-                <div class="columns bef-1">
-                    <aside>
-                        <h3 class="heading h-03">Развитие критического мышления</h3>
-                        <p class="copy-02">ебаты стимулируют участников критически анализировать и оценивать
-                            аргументы, а также разрабатывать свои собственные идеи и контраргументы.
-                          </p>
-                    </aside>
-                    <aside>
-                        <h3 class="heading h-03">Улучшение навыков коммуникации</h3>
-                        <p class="copy-02">Дебаты помогают участникам развивать навыки публичных выступлений,
-                            аргументации и убеждения, а также слушания и отзывчивости на аргументы других.
-                          </p>
-                    </aside>
-                    <aside>
-                        <h3 class="heading h-03">Развитие навыков работы в команде</h3>
-                        <p class="copy-02">В командных дебатах участники учатся сотрудничать и координировать свои
-                            усилия для достижения общей цели. </p>
-                    </aside>
-                </div>
-                <div class="columns bef-2">
-                    <aside>
-                        <h3 class="heading h-03">Образовательная ценность</h3>
-                        <p class="copy-02">Дебаты могут расширить знания участников о различных вопросах и темах,
-                            предоставляя возможность исследовать и обсудить разнообразные взгляды и мнения.
-                          </p>
-                    </aside>
-                    <aside>
-                        <h3 class="heading h-03">Стимулирование демократического диалога</h3>
-                        <p class="copy-02">Дебаты способствуют открытому и честному обсуждению различных
-                            идей и мнений, что может способствовать формированию более обоснованных и сбалансированных решений на
-                            уровне общества и государства. </p>
-                    </aside>
-                    <aside>
-                        <h3 class="heading h-03">Улучшение толерантности и уважения</h3>
-                        <p class="copy-02">Участие в дебатах может научить людей прислушиваться к мнениям других,
-                            даже если они не согласны с ними, и уважать право каждого на свою точку зрения. <br> <br>
-                          </p>
-                    </aside>
-                </div>
-            </div>
-
+          </div>
+          
         </div>
     </section>
 
-    <section id="gen-deb" class="section">
-        <div class="my-gen-deb-container">
-            <div class="site-inner">
-                <h1 class="heading h-01">Основы в дебатах</h1>
-            </div>
 
-              <section id="gen-deb-grid" class="site-inner-2 animTextScroll _animScroll">
-                
-                <div class="row">
-                  <div class="col gen-deb-item">
-                      <a href="/General-info/case.html">
-                        <figure class="image-container"><img src="/static/images/general/application.jpg"/></figure>
-                        <h2 class="heading h-02">Конструктивная речь (кейс) </h2>
-                        <p class="copy-03">Основы</p>
-                      </a>
-                  </div>
-                  <div class="col gen-deb-item">
-                      <a href="/General-info/resolution.html">
-                        <figure class="image-container"><img src="/static/images/general/burger.png"/></figure>
-                        <h2 class="heading h-02">Резолюция</h2>
-                        <p class="copy-03">Основы</p>
-                      </a>
-                  </div>
-                  <div class="col gen-deb-item">
-                      <a href="/General-info/narring-and-definitions.html">
-                        <figure class="image-container"><img src="/static/images/general/cafe.jpg"/></figure>
-                        <h2 class="heading h-02">Сужение и дефиниции</h2>
-                        <p class="copy-03">Основы</p>
-                      </a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col gen-deb-item">
-                      <a href="/General-info/agrumantation.html">
-                        <figure class="image-container"><img src="/static/images/general/cakes.jpg"/></figure>
-                        <h2 class="heading h-02">Аргументация</h2>
-                        <p class="copy-03">Основы</p>
-                      </a>
-                  </div>
-                  <div class="col gen-deb-item">
-                      <a href="/General-info/rebattle.html">
-                        <figure class="image-container"><img src="/static/images/general/music.jpg"/></figure>
-                        <h2 class="heading h-02">Ребатл</h2>
-                        <p class="copy-03">Основы</p>
-                      </a>
-                  </div>
-                  <div class="col gen-deb-item">
-                      <a href="/General-info/questions.html">
-                        <figure class="image-container"><img src="/static/images/general/psychologist.jpg"/></figure>
-                        <h2 class="heading h-02">Вопросы</h2>
-                        <p class="copy-03">Основы</p>
-                      </a>
-                  </div>
-                </div>
-              
-              </section>
-            </div>
+    <section id="gen-deb" class="section">
+      <div class="my-gen-deb-container">
+        <div class="site-inner">
+          <h1 class="heading h-01">Основы в дебатах</h1>
         </div>
+
+        <section id="gen-deb-grid" class="site-inner-2 animTextScroll _animScroll">
+
+          <div class="row">
+            <div class="col gen-deb-item">
+              <a href="/General-info/case.html">
+                <figure class="image-container"><img src="/static/images/general/application.jpg" /></figure>
+                <h2 class="heading h-02">Конструктивная речь (кейс) </h2>
+                <p class="copy-03">Основы</p>
+              </a>
+            </div>
+            <div class="col gen-deb-item">
+              <a href="/General-info/resolution.html">
+                <figure class="image-container"><img src="/static/images/general/burger.png" /></figure>
+                <h2 class="heading h-02">Резолюция</h2>
+                <p class="copy-03">Основы</p>
+              </a>
+            </div>
+            <div class="col gen-deb-item">
+              <a href="/General-info/narring-and-definitions.html">
+                <figure class="image-container"><img src="/static/images/general/cafe.jpg" /></figure>
+                <h2 class="heading h-02">Сужение и дефиниции</h2>
+                <p class="copy-03">Основы</p>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col gen-deb-item">
+              <a href="/General-info/agrumantation.html">
+                <figure class="image-container"><img src="/static/images/general/cakes.jpg" /></figure>
+                <h2 class="heading h-02">Аргументация</h2>
+                <p class="copy-03">Основы</p>
+              </a>
+            </div>
+            <div class="col gen-deb-item">
+              <a href="/General-info/rebattle.html">
+                <figure class="image-container"><img src="/static/images/general/music.jpg" /></figure>
+                <h2 class="heading h-02">Ребатл</h2>
+                <p class="copy-03">Основы</p>
+              </a>
+            </div>
+            <div class="col gen-deb-item">
+              <a href="/General-info/questions.html">
+                <figure class="image-container"><img src="/static/images/general/psychologist.jpg" /></figure>
+                <h2 class="heading h-02">Вопросы</h2>
+                <p class="copy-03">Основы</p>
+              </a>
+            </div>
+          </div>
+
+        </section>
+      </div>
+      </div>
 
     </section>
 
     <section id="deb-formats" class="section animTextScroll _animScroll">
-        <div class="site-inner">
-            <h1 class="heading">Форматы дебатов</h1>
-            <div class="tutor">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                      aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                      aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                      aria-label="Slide 3"></button>
-                  </div>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <a href="/American-format/apf.html"><img src="/static/images/definition.png" class="d-block w-100" alt="..."></a>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Американский Парламентский Формат (АПФ)</h5>
-                        <p>Как играется формат? Какие главные особенности? Какие частые ошибки?</p>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <a href="/British-format/bpf.html"><img src="/static/images/definition.png" class="d-block w-100" alt="..."></a>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Британский Парламентский Формат (БПФ)</h5>
-                        <p>Основной порядок выступлений. Задачи спикеров каждой команды</p>
-                      </div>
-                    </div>
-    
-                    <div class="carousel-item">
-                      <a href="/General-info/narring-and-definitions.html"><img src="/static/images/definition.png" class="d-block w-100" alt="..."></a>
-                      <div class="carousel-caption d-none d-md-block">
-                        <h5>Международный Школьный Формат (WSDC)</h5>
-                        <p>Задачи спикеров в данном формате, отличие от других форматов</p>
-                      </div>
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                  </button>
-                </div>
+      <div class="site-inner">
+        <h1 class="heading">Форматы дебатов</h1>
+        <div class="tutor">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
             </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="/American-format/apf.html"><img src="/static/images/definition.png" class="d-block w-100"
+                    alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Американский Парламентский Формат (АПФ)</h5>
+                  <p>Как играется формат? Какие главные особенности? Какие частые ошибки?</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="/British-format/bpf.html"><img src="/static/images/definition.png" class="d-block w-100"
+                    alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Британский Парламентский Формат (БПФ)</h5>
+                  <p>Основной порядок выступлений. Задачи спикеров каждой команды</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <a href="/General-info/narring-and-definitions.html"><img src="/static/images/definition.png"
+                    class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Международный Школьный Формат (WSDC)</h5>
+                  <p>Задачи спикеров в данном формате, отличие от других форматов</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
         </div>
+      </div>
     </section>
-  
-  <footer>
+
+    <footer>
       <section class="page-footer animTextScroll _animScroll">
         <div class="container-fuild">
           <div class="row">
-              <div class="col-lg-4 col-md-12 p-5 footer-text text-center">
-                
-              </div>
-              <div class="col-lg-4 col-md-12 p-5 footer-text text-center">
-                <p class="copy-02"><a class="foot-text" href="#" target="_blank">Дебатный клуб гимназии №6</a></p>
-                <p class="copy-02"><a class="foot-text" href="https://vk.com/kyoku_py" target="_blank">Разработчик сайта</a></p>
-              </div>
-              <div class="col-lg-4 col-md-12 p-5 footer-text text-center">
-              </div>
+            <div class="col-lg-4 col-md-12 p-5 footer-text text-center">
+
+            </div>
+            <div class="col-lg-4 col-md-12 p-5 footer-text text-center">
+              <p class="copy-02"><a class="foot-text" href="#" target="_blank">Дебатный клуб гимназии №6</a></p>
+              <p class="copy-02"><a class="foot-text" href="https://vk.com/kyoku_py" target="_blank">Разработчик
+                  сайта</a></p>
+            </div>
+            <div class="col-lg-4 col-md-12 p-5 footer-text text-center">
+            </div>
           </div>
         </div>
         <p class="copy-02 foot-tsuk">Наследие Цукуеми</p>
       </section>
-  </footer>
+    </footer>
 
-</section>
+  </section>
 
 
-<script src="/static/scripts/libs/jquery-1.10.2.min.js"></script>
+  <script src="/static/scripts/libs/jquery-1.10.2.min.js"></script>
 
-<script src="/static/scripts/plugins.js"></script>
-<script src="/static/scripts/application.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+  <script src="/static/scripts/plugins.js"></script>
+  <script src="/static/scripts/application.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-<script src="/static/scripts/animScroll.js"></script>
+  <script src="/static/scripts/animScroll.js"></script>
 </body>
+
 </html>

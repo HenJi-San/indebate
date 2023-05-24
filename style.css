@@ -109,8 +109,7 @@ a {
 }
 
 .copy-03,
-#gen-deb .filter-link,
-#page-signup .form-result {
+#gen-deb .filter-link .form-result {
   text-rendering: optimizeLegibility;
   font-family: segoeui, Arial, sans-serif;
   font-size: 14px;
@@ -175,7 +174,6 @@ a {
 
 #page-hero .brand-logo {
   padding: 80px 0 100px 0;
-  margin-bottom: 3.5em;
 }
 
 #page-hero .brand-logo #brand-logo {
@@ -301,9 +299,40 @@ a {
   margin-right: 20px;
 }
 
+.our-debaters {
+  margin-top: 2em;
+}
+.card {
+  margin-left: 1em;
+  margin-right: 1em;
+  border: none;
+}
+
+.slider {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  transition: transform 1s;
+  transform: translateX(100%);
+}
+
+.slide.active {
+  transform: translateX(0);
+}
+
+
+
 #page-about aside:last-child {
   margin: 0;
 }
+
 
 #gen-deb {
   position: relative;
@@ -528,6 +557,7 @@ footer .copy-02 {
     text-align: center;
     box-sizing: border-box;
   }
+  
 
   #gen-deb .h-01 {
     margin-bottom: 2px;
