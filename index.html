@@ -13,14 +13,16 @@
   <link href="css/plugins.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="/style.css" media="screen" rel="stylesheet" type="text/css" />
   <script src="/static/scripts/libs/modernizr-2.6.2.min.js"></script>
-  <script src="https://kit.fontawesome.com/6fe63ae194.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
+
+</head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html"><img src="/static/favicon/indebate 32x32.png" alt=""></a>
+        <a class="navbar-brand logo" href="/index.html">InDebate</a>
         <button class="navbar-toggler" type="button" color="white" data-bs-toggle="collapse"
           data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -69,10 +71,10 @@
         <div class="indebate-text _animScroll">
           <header>
             <div class="brand-logo">
-              <img src=static/images/logo.png>
+              <img src="static/images/indebate_no_bg-2.png" width="200" height="200">
             </div>
           </header>
-          <h1 class="heading h-01">InDebate</h1>
+          <h1 class="heading h-01">Дебаты</h1>
           <p class="sub-header copy-02">Подробная информация о дебатах от команды "Цукуёми" при поддержке Даутбаева
             Рафаэль Рулановича</p>
 
@@ -163,39 +165,73 @@
             </aside>
           </div>
         </div>
-        <div class="our-debaters animTextScroll _animScroll">
-          <div class="container-fuild w-90">
-            <div class="row">
-              <div class="col card" style="width: 18rem;">
-                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" alt="...">
+        <div class="our-debaters">
+          <h2 class="heading h-01">Наши дебатёры</h2>
+          <div class="card-cont swiper mySwiper">
+            <div class="card-content swiper-wrapper">
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="350px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Жданов Никита</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">Команда: Цукуёми <br>
+                  Роль: Староста клуба, разработчик сайта, первый спикер<br>
+                  Достижения: Лучший спикер 2022-2023, 1 место в области, судейство на городских турнирах</p>
                 </div>
               </div>
-              <div class="col card" style="width: 18rem;">
-                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" alt="...">
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/static/images/debaters/abutalifuly-eraly.jpg" class="card-img-top" width="200px" height="350px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Абуталифулы Ералы</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">Команда: Цукуёми <br>
+                    Роль: Второй спикер<br>
+                    Достижения: 1 место в области, лучший оратор областного турнира, судейство на городских турнирах</p>
                 </div>
               </div>
-              <div class="col card" style="width: 1rem;">
-                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" alt="...">
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/static/images/debaters/torebekova-alua.jpg" class="card-img-top" width="200px" height="350px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Торебекова Алуа</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">Команда: Либерти <br>
+                    Роль: Первый спикер<br>
+                    Достижения: 3 место в области, 2 место в городе, судья школьных турниров</p>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/static/images/debaters/nurtazina-azhar.jpg" class="card-img-top" width="200px" height="350px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Нуртазина Ажар</h5>
+                  <p class="card-text">Команда: Либерти <br>
+                    Роль: Второй спикер спикер<br>
+                    Достижения: 3 место в области, 2 место в городе, судья школьных турниров</p>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="350px"alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Даулет Айзере</h5>
+                  <p class="card-text">Команда: Дисперсия <br>
+                    Роль: Первый спикер<br>
+                    Достижения: 1 место в школе</p>
+                </div>
+              </div>
+              <div class="card swiper-slide" style="width: 18rem;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="350px" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Исатаев Аскат</h5>
+                  <p class="card-text">Команда: Дисперсия <br>
+                    Роль: Второй спикер спикер<br>
+                    Достижения: 1 место в школе</p>
                 </div>
               </div>
             </div>
+            <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
           </div>
           
         </div>
-    </section>
 
+    </section>
 
     <section id="gen-deb" class="section">
       <div class="my-gen-deb-container">
@@ -257,7 +293,6 @@
       </div>
 
     </section>
-
     <section id="deb-formats" class="section animTextScroll _animScroll">
       <div class="site-inner">
         <h1 class="heading">Форматы дебатов</h1>
@@ -344,6 +379,39 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
   <script src="/static/scripts/animScroll.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 25,
+      grabCursor: true,
+      loop:true,
+      fade:true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        0: {
+          slidesPerView:1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        968: {
+          slidesPerView:3,
+        },
+      }
+    });
+  </script>
 </body>
 
 </html>
