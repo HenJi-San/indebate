@@ -336,22 +336,7 @@ a {
 .card-title {
   margin-bottom: 5px;
   font-size: 25px;
-}
-
-.nikita {
-  margin-left: 20px;
-}
-.alua {
-  margin-left: 13px;
-}
-.azhar {
-  margin-left: 15px;
-}
-.aizere {
-  margin-left: 25px;
-}
-.askat {
-  margin-left: 27px;
+  text-align: center;
 }
 
 #page-about aside:last-child {
@@ -517,6 +502,13 @@ footer .copy-02 {
   margin-bottom: 17px;
 }
 
+.card {
+  background: rgb(40, 40, 40);
+}
+.developer {
+  color: white;
+  font-family: segoeui, Arial, sans-serif;
+}
 
 
 @media (max-width: 968px) {
