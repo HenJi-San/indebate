@@ -167,10 +167,10 @@
         </div>
         <div class="our-debaters">
           <h2 class="heading h-01">Наши дебатёры</h2>
-          <div class="card-cont swiper mySwiper">
-            <div class="card-content swiper-wrapper">
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="350px" alt="...">
+          <div class="card-deb-cont swiper mySwiper">
+            <div class="card-deb-content swiper-wrapper">
+              <div class="card-deb swiper-slide" style="width: 200px;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="300px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Жданов Никита</h5>
                   <p class="card-text">Команда: Цукуёми <br>
@@ -178,8 +178,8 @@
                   Достижения: Лучший спикер 2022-2023, 1 место в области, судейство на городских турнирах</p>
                 </div>
               </div>
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img src="/static/images/debaters/abutalifuly-eraly.jpg" class="card-img-top" width="200px" height="350px" alt="...">
+              <div class="card-deb swiper-slide" style="width: 200px;">
+                <img src="/static/images/debaters/abutalifuly-eraly.jpg" class="card-img-top" width="200px" height="300px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Абуталифулы Ералы</h5>
                   <p class="card-text">Команда: Цукуёми <br>
@@ -187,8 +187,8 @@
                     Достижения: 1 место в области, лучший оратор областного турнира, судейство на городских турнирах</p>
                 </div>
               </div>
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img src="/static/images/debaters/torebekova-alua.jpg" class="card-img-top" width="200px" height="350px" alt="...">
+              <div class="card-deb swiper-slide" style="width: 200px;">
+                <img src="/static/images/debaters/torebekova-alua.jpg" class="card-img-top" width="200px" height="300px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Торебекова Алуа</h5>
                   <p class="card-text">Команда: Либерти <br>
@@ -196,8 +196,8 @@
                     Достижения: 3 место в области, 2 место в городе, судья школьных турниров</p>
                 </div>
               </div>
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img src="/static/images/debaters/nurtazina-azhar.jpg" class="card-img-top" width="200px" height="350px" alt="...">
+              <div class="card-deb swiper-slide" style="width: 200px;">
+                <img src="/static/images/debaters/nurtazina-azhar.jpg" class="card-img-top" width="200px" height="300px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Нуртазина Ажар</h5>
                   <p class="card-text">Команда: Либерти <br>
@@ -205,8 +205,8 @@
                     Достижения: 3 место в области, 2 место в городе, судья школьных турниров</p>
                 </div>
               </div>
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="350px"alt="...">
+              <div class="card-deb swiper-slide" style="width: 200px;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="300px"alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Даулет Айзере</h5>
                   <p class="card-text">Команда: Дисперсия <br>
@@ -214,8 +214,8 @@
                     Достижения: 1 место в школе</p>
                 </div>
               </div>
-              <div class="card swiper-slide" style="width: 18rem;">
-                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="350px" alt="...">
+              <div class="card-deb swiper-slide" style="width: 200px;">
+                <img src="/static/images/debaters/Zhdanov-Nikita.jpg" class="card-img-top" width="200px" height="300px" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Исатаев Аскат</h5>
                   <p class="card-text">Команда: Дисперсия <br>
@@ -387,8 +387,9 @@
       slidesPerView: 3,
       slidersPerGroup:3,
       centeredSlides: true,
-      spaceBetween: 20,
+      spaceBetween: 25,
       grabCursor: true,
+      loop:true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -401,12 +402,17 @@
       breakpoints: {
         0: {
           slidesPerView:1,
+          centeredSlides: true,
+          spaceBetween: 5,
         },
         768: {
           slidesPerView: 2,
+          centeredSlides: true,
+          spaceBetween: 5,
         },
         968: {
           slidesPerView:3,
+          centeredSlides: true,
         },
       }
     });

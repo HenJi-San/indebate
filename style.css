@@ -306,24 +306,21 @@ a {
   margin-right: 20px;
 }
 
-.our-debaters {
-}
-.card-cont {
+.card-deb-cont {
   display: flex;
   justify-content: center;
+  width: 80%;
 }
-.card-cont .card-content {
+.card-deb-cont .card-deb-content {
   display: flex;
   padding: 1rem 2.5rem;
 }
 
-.card {
-  margin-left: 1em;
-  margin-right: 1em;
+.card-deb {
   border: none;
   position: relative;
 }
-.card img {
+.card-deb img {
   border-radius: 10px;
 }
 
@@ -490,7 +487,7 @@ footer .copy-02 {
 
 
 
-@media only screen and (max-width: 1100px) {
+@media (max-width: 968px) {
 
   .navbar {
     position: fixed;
@@ -557,7 +554,14 @@ footer .copy-02 {
     text-align: center;
     box-sizing: border-box;
   }
-  
+  .card-text {
+    width: 80%;
+  }
+
+  .card-deb img {
+    width: 80%;
+    height: 80%;
+  }
 
   #gen-deb .h-01 {
     margin-bottom: 2px;
