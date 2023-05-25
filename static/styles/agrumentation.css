@@ -1,13 +1,13 @@
 body {
-    background-image: url(/static/images/bg-tile.png);
+  background-image: url(/static/images/bg-tile.png);
 }
 
 .copy-01 {
-    margin-bottom: 1.7em;
+  margin-bottom: 1.7em;
 }
 
 .heading {
-    color: #333638;
+  color: #333638;
 }
 
 .heading.h-02 {
@@ -26,84 +26,212 @@ body {
   line-height: 1;
   margin-top: 2em;
 }
+
 .heading.h-04 {
   font-family: segoeui, Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 1;
 }
-#navbar-example3   {
+
+#navbar-example3 {
   position: fixed;
   top: 1;
   margin-top: 10px;
   font-size: 18px;
 }
+/*Навигация*/
+
+
+#menu__toggle {
+  display: none;
+}
+
+.menu__btn {
+  display: none;
+}
+
+.menu__box {
+  display: none;
+}
+
+.menu__item {
+  display: none;
+}
+
+
+
+/*Навигация*/
+
 .left-side-arg {
   margin-right: 0em;
   background-color: white;
 }
+
 .left-side-arg>h2 {
   text-align: center;
   display: none;
 }
 
 h1 {
-    margin-top: 0.3em;
-    font-family: 'EB Garamond';
-    font-size: 130px;
-    text-align: center;
+  margin-top: 0.3em;
+  font-family: 'EB Garamond';
+  font-size: 130px;
+  text-align: center;
 }
-  
+
 .arg-gen-info {
-    margin-top: 3em;
+  margin-top: 3em;
 }
+
 .img-in-text {
-   text-align: center;
+  text-align: center;
 }
 
 .tutor-text {
-    text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
-    .tutor {
-      margin-top: 3em;
-      width: 100%;
-      margin-left: 0em;
-      margin-right: 0em;
-      margin-bottom: 3em;
-    }
-    
-    .main-arg {
-      margin: 0;
-    }
-    #title {
-      margin-top: 0.5em;
-    }
-    #navbar-example3 {
-      position: relative;
-    }
-    .left-side-arg {
-      margin-top: 0;
-      top: 0;
-    }
+  .tutor {
+    margin-top: 3em;
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 3em;
   }
-  img {
-    width: 70%;
+
+  .main-arg {
+    margin: 0;
   }
+
+  #title {
+    margin-top: 0.5em;
+  }
+}
+
+img {
+  width: 70%;
+}
+
 @media (max-width: 800px) {
-    .left-side-arg>h2 {
-      display: block;
-      margin-top: 1em;
-    }
-    .heading.h-02 {
-      font-size: 35px;
-    }
-    #title {
-      margin-top: 0.5em;
-    }
-    h1 {
-      text-align: center;
-      font-size: 50px;
-    }
+  .left-side-arg>h2 {
+    display: none;
+  }
+
+  .left-side-arg {
+    margin-top: 0;
+    top: 0;
+  }
+
+  .heading.h-02 {
+    font-size: 35px;
+  }
+
+  #title {
+    margin-top: 0.5em;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2em;
+  }
+
+  /*Навигация*/
+
+
+
+  #menu__toggle {
+    display: block;
+    opacity: 0;
+    position: fixed;
+  }
+
+  #menu__toggle:checked+.menu__btn>span {
+    transform: rotate(45deg);
+  }
+
+  #menu__toggle:checked+.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+
+  #menu__toggle:checked+.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+
+  #menu__toggle:checked~.menu__box {
+    left: 0 !important;
+  }
+
+  .menu__btn {
+    display: block;
+    position: fixed;
+    top: 120px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .menu__btn>span,
+  .menu__btn>span::before,
+  .menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+  }
+
+  .menu__btn>span::before {
+    content: '';
+    top: -12px;
+  }
+
+  .menu__btn>span::after {
+    content: '';
+    top: 12px;
+  }
+
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding-left: 1em;
+    padding-top: 140px;
+    z-index: 1;
+    list-style: none;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+  }
+
+  .menu__item {
+    display: block;
+    transition-duration: .25s;
+  }
+
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+
+
+  /*Навигация*/
+  #navbar-example3 {
+    display: none;
+  }
+
+  #navbar-example4 {
+    position: relative;
+    font-size: 80%;
+  }
 }
