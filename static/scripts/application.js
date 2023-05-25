@@ -80,3 +80,7 @@ document.getElementById('prev').addEventListener('click', () => {
     newActiveSlide.classList.add('active');
   }, 1000);
 });
+
+$('.menu').click (function(){
+  $(this).toggleClass('open');
+});
