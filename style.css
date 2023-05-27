@@ -330,8 +330,9 @@ a {
 }
 
 .card-deb img {
-  border-radius: 10px;
+  border-radius: 12px;
 }
+
 
 .card-title {
   margin-bottom: 5px;
@@ -579,18 +580,10 @@ footer .copy-02 {
     text-align: center;
     box-sizing: border-box;
   }
-
-  .card-deb {
-    width: 80%;
-    height: 80%;
-  }
-
-  .card-text {
+  .debater {
     width: 75%;
   }
-
   .card-deb img {
-    width: 73%;
     height: 73%;
   }
 
