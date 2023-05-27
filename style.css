@@ -166,7 +166,6 @@ a {
 }
 
 .indebate-text {
-
   opacity: 0;
   transition: all 2s ease 0s;
 }
@@ -174,6 +173,10 @@ a {
 .indebate-text._active {
   transform: translate(1px, 0px);
   opacity: 1;
+}
+.page-hero-text {
+  margin-top: 8em;
+  text-shadow: 3px 3px 1px black;
 }
 
 #page-hero {
