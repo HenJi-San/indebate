@@ -176,7 +176,6 @@ a {
 }
 .page-hero-text {
   margin-top: 8em;
-  text-shadow: 3px 3px 1px black;
 }
 
 #page-hero {
@@ -334,6 +333,7 @@ a {
 
 .card-deb img {
   border-radius: 12px;
+  object-fit: cover;
 }
 
 
