@@ -590,6 +590,10 @@ footer .copy-02 {
   .debater {
     width: 75%;
   }
+  .deb-img {
+    width: 250px;
+    height: 250px;
+  }
 
   .gen-deb-zag {
     margin-bottom: em;
